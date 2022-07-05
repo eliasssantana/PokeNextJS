@@ -28,7 +28,7 @@ export default function Home({pokemons}) {
     <>
       <div className={styles.title_container}>
         <h1 className={styles.title}>Poke<span>Next</span></h1>
-        <Image src="/images/pokeball.png" width="50" height="50" alt="Pokeball"/>
+        <Image src="/images/pokeball.png" width="50" height="50" alt="Pokeball" layout="responsive"/>
       </div>
       <div className={styles.pokemon_container}>
         {pokemons.map(pokemon => (

@@ -25,3 +25,17 @@
     max-width: 80vw;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 37.5rem) {
+    .pokemon_container{
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    
+    .title span{
+        font-size: 2.5rem;
+    }
+}

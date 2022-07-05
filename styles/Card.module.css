@@ -48,3 +48,15 @@
     background-color: #E33D33;
     color: #fff;
 }
+
+@media screen and (max-width: 37.5rem) {
+    .card{
+    width: 40vw;
+    padding: 2rem 2rem;
+}
+
+.card .title{
+    font-size: 2rem;
+}
+
+}
