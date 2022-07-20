@@ -2,21 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.2rem;
+    padding: 2rem 3rem;
     margin-bottom: 2rem;
     background-color: #333;
     color: #fff;
+    height: 8vh;
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo h1{
-    font-size: 1rem;
+    font-size: 2.5rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .link_items{
@@ -29,7 +32,7 @@
 }
 
 .link_items a{
-    font-size: .8rem;
+    font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
     padding: .5rem;
