@@ -9,7 +9,7 @@ export default function NavBar(){
             <nav className={styles.navbar}>
                 <div className={styles.logo}>
                     <Link href="/">
-                        <Image src="/images/pokeball.png" alt="pokeball image" width="50" height="50"/>
+                        <Image src="/images/pokeball.png" alt="pokeball image" width="50" height="50" layout="responsive"/>
                     </Link>
                     <Link href="/">
                         <h1>PokeNext</h1>
